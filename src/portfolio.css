@@ -22,11 +22,17 @@ h6 {
 
 p{
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 
 h1{
     font-size: 96px;
+}
+
+h2{
+    font-size: 64px;
 }
 
 .hero{
@@ -56,4 +62,13 @@ h1{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline{
+    background: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px; 
 }
