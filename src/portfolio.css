@@ -40,6 +40,11 @@ h4{
     font-size: 34px;
 }
 
+.photograph{
+    border-radius: 10px;
+    max-width: 500px;
+}
+
 .hero{
     background: var(--secondary-color);
     text-align: center;
