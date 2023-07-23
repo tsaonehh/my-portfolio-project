@@ -36,6 +36,10 @@ h2{
     font-size: 64px;
 }
 
+h4{
+    font-size: 34px;
+}
+
 .hero{
     background: var(--secondary-color);
     text-align: center;
@@ -138,6 +142,46 @@ nav a:hover, nav li.active a{
     color: var(--branding-color);
 }
 
+footer{
+    margin: 60px 0;
+}
+
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin: 0;
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    color: #fff;
+    background: var(--branding-color);
+}
+
 @media(max-width: 900px){
     h1{
         font-size: 44px;
@@ -146,6 +190,10 @@ nav a:hover, nav li.active a{
 
     h2{
         font-size: 30px;
+    }
+
+    h4{
+        font-size: 18px;
     }
 
     .hero{
@@ -165,4 +213,9 @@ nav a:hover, nav li.active a{
     nav a{
         font-size: 12px;
     }
+
+    footer .email-link{
+    font-size: 18px;
+    }
+
 }
