@@ -187,6 +187,11 @@ footer .social-links a:hover{
     background: var(--branding-color);
 }
 
+.croissant-image{
+    max-height: 385px;
+    margin-left: 110px;
+}
+
 @media(max-width: 900px){
     h1{
         font-size: 44px;
@@ -217,6 +222,14 @@ footer .social-links a:hover{
 
     footer .email-link{
     font-size: 18px;
+    }
+
+    .image-tsaone{
+        max-width: 375px;
+    }
+
+    .croissant-image{
+        margin-left: 6px;
     }
 
 }
