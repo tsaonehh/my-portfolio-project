@@ -1,5 +1,5 @@
 # my-portfolio-project
-this project is all me and all about me. 
+this project is all me and all about me,
 this is your first introduction of me really.
 it's obviously a little bias since i am the one who wrote it but still,
 its pretty accurate information.
